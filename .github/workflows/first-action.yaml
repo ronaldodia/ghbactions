@@ -1,8 +1,11 @@
 name: Run shell Command
-on: [push]
+#on: [push]
+on: 
+  schedule:
+    - cron: '*/30 * * * *'
 jobs:
   my-first-job:
     runs-on: ubuntu-latest
     steps:
-    - name: my echo script
-      run: echo "my first github workflows"
+    - name: my echo script runs every 30s
+      run: echo "my first github workflows schedule based"
