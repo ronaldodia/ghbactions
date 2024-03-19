@@ -1,12 +1,12 @@
-name: Run only on dev branch
+#name: Run only on dev branch
 #on: [push]
-on: 
-  push:
-    branches:
-    - 'dev/**'
-jobs:
-  my-first-job:
-    runs-on: ubuntu-latest
-    steps:
-    - name: my echo script runs on dev
-      run: echo "run only on dev branch"
+#on: 
+#  push:
+#    branches:
+#    - 'dev/**'
+##jobs:
+  ##my-first-job:
+   # runs-on: ubuntu-latest
+   # steps:
+   # - name: my echo script runs on dev
+   #   run: echo "run only on dev branch"

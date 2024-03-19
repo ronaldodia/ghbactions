@@ -1,11 +1,11 @@
-name: Run shell Command on schedule
+#name: Run shell Command on schedule
 #on: [push]
-on: 
-  schedule:
-    - cron: '*/5 * * * *'
-jobs:
-  my-first-job:
-    runs-on: ubuntu-latest
-    steps:
-    - name: my echo script runs every 30s
-      run: echo "my first github workflows schedule based"
+#on: 
+#  schedule:
+#    - cron: '*/5 * * * *'
+#jobs:
+#  my-first-job:
+#    runs-on: ubuntu-latest
+#    steps:
+#    - name: my echo script runs every 30s
+ #     run: echo "my first github workflows schedule based"
