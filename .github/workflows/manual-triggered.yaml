@@ -1,0 +1,10 @@
+name: Run shell Command
+#on: [push]
+on: 
+  workflow_dispatch
+jobs:
+  my-first-job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: manual workflow
+      run: echo "This is run manaly"

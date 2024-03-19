@@ -2,7 +2,7 @@ name: Run shell Command
 #on: [push]
 on: 
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/5 * * * *'
 jobs:
   my-first-job:
     runs-on: ubuntu-latest
