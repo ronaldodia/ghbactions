@@ -1,4 +1,4 @@
-name: Run shell Command
+name: Run shell Command on schedule
 #on: [push]
 on: 
   schedule:

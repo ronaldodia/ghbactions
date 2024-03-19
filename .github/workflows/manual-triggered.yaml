@@ -1,4 +1,4 @@
-name: Run shell Command
+name: Run shell Command manual
 #on: [push]
 on: 
   workflow_dispatch
